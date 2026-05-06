@@ -57,16 +57,17 @@ Benchmark (quick test)
 
 bash
 python3 src/v1_engine.py bench 500000
-What I learned building this
+
+## What I learned building this
 Implementing Black‑Scholes and its derivatives forced me to actually sit with the maths — reasoning about why each Greek behaves the way it does, not just copying formulas.
 Writing a Monte Carlo pricer from scratch, even in a slow Python loop, gave me a visceral appreciation for how much compute hardware acceleration can unlock later.
 Most importantly, I learned to benchmark honestly — the necessity of warm‑up cycles, preventing the compiler from eliminating dead code, and understanding the massive difference between constant‑data and real‑world workloads.
 
-What this isn’t
+## What this isn’t
 This is not a production risk system. It’s a learning project built to understand the real‑world demands of quantitative software — numerical accuracy, performance measurement, and the architecture of pricing libraries.
 The goal is to close the gap between “I’ve read about options” and “I can build a fast, verifiable pricing engine from the ground up.”
 
-AI USE AND HOW MUCH
+## AI USE AND HOW MUCH
 Yes, I used AI for this project as it was my first options pricing system at this level.
 AI helped structure the files, suggest the Black‑Scholes implementation, and explain the mathematical concepts behind the Greeks and Monte Carlo methods.
 All code was understood, tested, and verified by me.
