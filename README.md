@@ -50,8 +50,6 @@ This is a work in progress. The roadmap is honest about what’s next.
 **Requirements**
 - Python 3.10+
 - No external libraries (v1 uses only standard library)
-
-```bash
 git clone https://github.com/adityatomar15/options-pricing-engine.git
 cd options-pricing-engine
 python3 src/v1_engine.py
