@@ -1,7 +1,7 @@
 # Options Pricing Engine v1
 
 I built this to actually understand how options are priced at the hardware level — not just the theory.  
-It’s a pure‑Python, correctness‑verified pricing library that calculates Black‑Scholes prices, all five Greeks, Monte Carlo simulations, and binomial trees — entirely from scratch, using only the Python standard library (no NumPy, no SciPy, no Numba). The hot path hits the CPU directly; every `exp` and `log` call is deliberate.
+It’s a pure‑Python, correctness‑verified pricing library that calculates Black‑Scholes prices, all five Greeks, Monte Carlo simulations, and binomial trees — entirely from scratch, using only the Python standard library (no NumPy, no SciPy, no Numba).
 
 This is a work in progress. The roadmap is honest about what’s next.
 
