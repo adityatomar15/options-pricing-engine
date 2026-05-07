@@ -69,5 +69,4 @@ The goal is to close the gap between “I’ve read about options” and “I ca
 
 ## AI USE AND HOW MUCH
 Yes, I used AI for this project as it was my first options pricing system at this level.
-AI helped structure the files, suggest the Black‑Scholes implementation, and explain the mathematical concepts behind the Greeks and Monte Carlo methods.
-All code was understood, tested, and verified by me.
+AI was used for project structure and as a reference for mathematical concepts. All implementation decisions, benchmarking methodology, and verification against known values are my own.
